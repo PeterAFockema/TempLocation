@@ -17,3 +17,7 @@ for i in String:
     #Print for the non-repeating characters
     if count == 1:
         print(i, end = " ")
+
+for i in String:
+    if String.count(i) == 1:
+        print("i #2 method non-repeating character is: ", i)
